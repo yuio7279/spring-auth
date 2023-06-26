@@ -11,7 +11,7 @@
 
 3. 인증관리자는 username을 전달하고 UserDetails를 요청합니다.
 
-4. UserDetailsService에서 username을 전달받아 회원DB와 연동해 회원을 조회한다. UserDetailsImpl을 로드합니다.
+4. UserDetailsService에서 username을 전달받아 회원DB와 연동해 회원을 조회합니다. UserDetailsImpl을 로드합니다.
 
 5. 인증관리자는 UserDetailsImpl과 UsernamePasswordAuthenticationToken 객체와 비교하여 인증을 수행합니다.
 
